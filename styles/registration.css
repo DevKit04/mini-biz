@@ -1,0 +1,31 @@
+*{box-sizing:border-box;}
+body{
+	background:url(bman.jpg);
+	background-size:cover;
+	margin:0px;
+	font-family:consolas;
+} 
+.container{
+	width:100vw;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+.title{
+	color:#fff;
+}
+.reg_type_1, .reg_type_2{
+	width:496px;
+	height:133px;
+}
+.reg_type_1{
+	background:url(nalog.png);
+	background-size:cover;
+	margin-bottom:20px;
+}
+.reg_type_2{
+	background:url(my-biz.png);
+	background-size:cover;
+}

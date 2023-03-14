@@ -1,0 +1,29 @@
+*{box-sizing:border-box;}
+body{
+	background:rgb(235,235,235);
+	margin:0px;
+	font-family:consolas;
+}
+.container{
+	width:100vw;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+.user-idea{
+	background:rgb(255,255,255);
+	width:500px;
+	height:75px;
+	margin-bottom:20px;
+	padding:40px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	border-radius:10px;
+}
+.idea-name{
+	font-weight:bold;
+	font-size:18px;
+}
